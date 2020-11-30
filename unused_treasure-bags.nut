@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Treasure Bags"
-	description = "Trashes of the old world can contain very useful materials."
+	name =        "Сумки с сокровищами"
+	description = "Мусор старого мира может содержать весьма полезные материалы."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -12,7 +12,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_0_0"
-					description = "Break and loot trash bags"
+					description = "Ломайте и разграбляйте мусорные мешки"
 					actor_type_id = "actors/objects/suburb-trash-bag.xml"
 					required_amount = 9
 
