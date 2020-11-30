@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Stone Formations"
-	description = "There is weird light emanating from the ancient stone formations. I should investigate more of these."
+	name =        "Каменные сооружения"
+	description = "Из древних каменных образований исходит странный свет. Я должен исследовать их больше."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -12,7 +12,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_INVESTIGATE"
-					description = "Investigate [VAR.required_amount] stone formations."
+					description = "Изучите [VAR.required_amount] каменные образования."
 					required_amount = 3
 
 					function GetProgressText()
@@ -45,7 +45,7 @@ function OnActorInteraction(interactive_actor, interactor_actor, interaction_id)
 	{
 		if (interaction_id == "investigate")
 		{
-			local text_0 = "I've already investigated this one.";
+			local text_0 = "Я уже исследовал это.";
 			Game_AddActorNotification(interactor_actor, LocalizeText(text_0));
 		}
 		return;
@@ -65,8 +65,8 @@ function OnActorInteraction(interactive_actor, interactor_actor, interaction_id)
 
 	if (num_investigated == 1)
 	{
-		local text_0 = "I remember these ancient stone formations.";
-		local text_1 = "Nobody seemed to know exactly what was their purpose.";
+		local text_0 = "Я помню эти древние каменные образования.";
+		local text_1 = "Похоже, никто не знает, для чего они нужны.";
 		Game_AddActorNotification(interactor_actor, LocalizeText(text_0));
 		Game_AddActorNotification(interactor_actor, LocalizeText(text_1));
 		return;
@@ -74,8 +74,8 @@ function OnActorInteraction(interactive_actor, interactor_actor, interaction_id)
 
 	if (num_investigated == 2)
 	{
-		local text_0 = "I think these are tombs of some sort.";
-		local text_1 = "They seem different somehow";
+		local text_0 = "Думаю, это какие-то гробницы.";
+		local text_1 = "Они выглядят как-то по-другому";
 		Game_AddActorNotification(interactor_actor, LocalizeText(text_0));
 		Game_AddActorNotification(interactor_actor, LocalizeText(text_1));
 		return;
@@ -84,7 +84,7 @@ function OnActorInteraction(interactive_actor, interactor_actor, interaction_id)
 	if (num_investigated == 3)
 	{
 		Actor_InteractWithInteraction(interactive_actor, interactor_actor, "unlock");
-		local text_0 = "What's happening [EMOJI=hushed face]";
+		local text_0 = "Что происходит [EMOJI=hushed face]";
 		Game_AddActorNotification(interactor_actor, LocalizeText(text_0));
 		return;
 	}
