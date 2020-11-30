@@ -1,7 +1,7 @@
 quest <- {
 	category =    "TEMPORAL_CHALLENGE"
-	name =        "Haymaker"
-	description = "The field is infested with ex-humans. It is time to turn them into fertiliser."
+	name =        "Газонокосилmobr"
+	description = "Поле кишит бывшими людьми. Пришло время превратить их в удобрения."
 	description_when_completed = "Nature will take care of this problem now."
 	image =       "quests/quest-image.jpg"
 	time_limit =  75.0
@@ -17,7 +17,7 @@ quest <- {
 			goals = [
 				{
 					id = "KILL"
-					description = "Kill [VAR.required_amount] ex-humans."
+					description = "Убить [VAR.required_amount] бывших людей."
 					actor_type_id_0 = "actors/enemies/ex-human-female-melee.xml"
 					actor_type_id_1 = "actors/enemies/ex-human-male-melee.xml"
 					actor_type_id_2 = "actors/enemies/ex-human-puker.xml"
@@ -52,7 +52,7 @@ quest <- {
 				}
 				{
 					id = "TIME"
-					description = "Finish in [VAR.temporal_challenge_time_limit] seconds."
+					description = "Закончить за [VAR.temporal_challenge_time_limit] секунд."
 					time_limited = true
 				}
 			]
