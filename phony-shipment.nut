@@ -1,8 +1,8 @@
 quest <- {
 	category =    "SIDE_QUEST"
-	name =        "Phony Shipment"
-	description = "There is a note in the dossier: 'Hey guys, it seems I forgot the key in the pocket of my pants. My wife must've put them in the [GREEN]washing machine[WHITE] so it seems the shipment will be late. Sorry!'"
-	description_when_completed = "The key opened a door into a storage full of materials. One man's misfortune seems to be another man's fortune."
+	name =        "Фальшивая пересылка"
+	description = "В досье есть записка: 'Эй, ребята, кажется, я забыл ключ в кармане брюк. Моя жена, должно быть, положила их в [ЗЕЛЕНУЮ]стиральную машину[БЕЛЫЙ], так что, похоже, посылка опоздает'. Извините!'"
+	description_when_completed = "Ключ открыл дверь на склад, полный материалов. Судя по всему, несчастье одного человека - это удача для другого."
 	image =       "quests/quest-image.jpg"
 
 	requirements = {
@@ -18,7 +18,7 @@ quest <- {
 						{
 							/* This phase needs an interactives/buried_treasure with treasure_id corresponding with one below and key_id "GRAVEYARD_KEY" */
 							id = "GOAL_0_FIND"
-							description = "Find the storage key"
+							description = "Найдите ключ от хранилища"
 
 							function OnCollectibleFound(category, id)
 							{
@@ -46,7 +46,7 @@ quest <- {
 				{
 					/* This phase needs two interactable, closed doors with id set with actor_id and actor_id_2 to be opened with a key found in earlier phase.*/
 					id = "GOAL_1_OPEN"
-					description = "Open the storage door."
+					description = "Откройте дверь хранилища."
 					required_amount = 1
 					actor_id = "WAYWARD_STORAGE_DOOR"
 
