@@ -1,8 +1,8 @@
 quest <- {
 	category =    "SIDE_QUEST"
-	name =        "Buried Treasures"
-	description = "Dig up the stashes on the map."
-	description_when_completed = "You can't help but to wonder if there are more hidden treasures such as these."
+	name =        "Зарытые сокровища"
+	description = "Выкопайте тайники на карте."
+	description_when_completed = "Вас мучает вопрос, есть ли еще скрытые сокровища, такие как эти."
 	image =       "quests/quest-image.jpg"
 
 	more_info_button_text = "Show The Letter"
@@ -19,7 +19,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_0_0"
-					description = "Dig up treasures"
+					description = "Выкопать сокровища"
 					required_amount = 2
 					treasure_id_prefix = "CAPERNAUM."
 
