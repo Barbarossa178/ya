@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Barrier for Entry"
-	description = "Large portions of the evac site complex are under lockdown so I need to find a key to gain access. Perhaps I can find clues from the office building at the site"
+	name =        "Барьер для входа"
+	description = "Большая часть комплекса эвакуационного центра находится под блокировкой, поэтому мне нужно найти ключ, чтобы получить доступ. Возможно, я смогу найти подсказки из офисного здания на месте."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -13,7 +13,7 @@ quest <- {
 				{
 					/* This phase needs an interactable object with id set with actor_id */
 					id = "GOAL_0_FIND"
-					description = "Search the base for clues."
+					description = "Ищите подсказки на базе."
 					actor_id = "EVAC_SITE_KEY_INFO"
 					required_amount = 1
 					
@@ -41,13 +41,13 @@ quest <- {
 		}
 		{
 			id = "PHASE_1"
-			description = "it seems the only spare key left on the island is in the house of the former manager. He used to live far up north from the evac site."
+			description = "Похоже, единственный оставшийся на острове запасной ключ находится в доме бывшего менеджера. Раньше он жил далеко на севере от места эвакуации."
 			reward_xp = 250
 			goals = [
 				{
 					/* This phase needs a location marker with a location_id that corresponds with quest_location*/
 					id = "GO"
-					description = "Find the town of [GREEN]Burnsley[WHITE]."
+					description = "Найдите город [GREEN]Бернсли[WHITE]."
 					quest_location = "TOWN_5"
 
 					function OnEnterLocation(location_id, new_location)
@@ -66,7 +66,7 @@ quest <- {
 				{
 					/* This phase needs an interactable object with an id that corresponds with actor_id */
 					id = "FIND"
-					description = "[GREEN]Search[WHITE] for the key in Burnsley."
+					description = "[GREEN]Ищите[WHITE]  ключ в Бернсли."
 					actor_id = "EVAC_SITE_KEY_LOC"
 					required_amount = 1
 
@@ -94,7 +94,7 @@ quest <- {
 				{
 					/* This phase needs two interactable, closed doors with id set with actor_id and actor_id_2 to be opened with a set key*/
 					id = "GOAL_1_OPEN"
-					description = "Open the metal gates back at the Evac Site"
+					description = "Откройте металлические ворота на месте эвакуации."
 					required_amount = 2
 					actor_id = "EVAC_SITE_GATE_1"
 					actor_id_2 = "EVAC_SITE_GATE_2"
