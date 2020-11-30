@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Echoes from the Past"
-	description = "Some old radio station is still broadcasting. Maybe the broadcasts can give me some clues on what happened exactly."
+	name =        "Отголоски прошлого"
+	description = "Какая-то старая радиостанция все еще вещает. Может быть, трансляции могут дать мне подсказки о том, что именно случилось."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -12,7 +12,7 @@ quest <- {
 			goals = [
 				{
 					id = "LISTEN"
-					description = "Listen to [VAR.required_amount] radios."
+					description = "Слушайте [VAR.required_amount] радио."
 					required_amount = 2
 
 					function OnInitialize()
@@ -50,5 +50,5 @@ quest <- {
 function OnQuestCompleted()
 {
 	local so_player = Game_GetPrimaryPlayerActor();
-	Game_AddActorNotification(so_player, "I wonder what happened. [EMOJI=thinking face]");
+	Game_AddActorNotification(so_player, "Интересно, что случилось. [EMOJI=thinking face]");
 }
