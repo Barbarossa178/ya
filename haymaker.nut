@@ -1,8 +1,8 @@
 quest <- {
 	category =    "TEMPORAL_CHALLENGE"
-	name =        "Газонокосилmobr"
+	name =        "Газонокосильщик"
 	description = "Поле кишит бывшими людьми. Пришло время превратить их в удобрения."
-	description_when_completed = "Nature will take care of this problem now."
+	description_when_completed = "Природа позаботится об этой проблеме сейчас."
 	image =       "quests/quest-image.jpg"
 	time_limit =  75.0
 
