@@ -1,8 +1,8 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Preparing for Winter"
-	description = "Air gets colder and there is snow all around. Invent something that will keep you warm."
-	description_when_completed = "Although the air never gets warmer, your body is now protected against the elements."
+	name =        "Подготовка к зиме"
+	description = "Воздух становится холоднее, а вокруг - снег. Придумайте что-нибудь, что согреет вас."
+	description_when_completed = "Хотя температура воздуха не поднимается, ваше тело теперь защищено от воздействия стихии."
 	image =       "quests/quest-image.jpg"
 
 	requirements = {
@@ -18,7 +18,7 @@ quest <- {
 			goals = [
 				{
 					id = "WINTER_GEAR"
-					description = "Invent a [GREEN]Fur Hat[WHITE] or a [GREEN]Hot Water Bottle[WHITE] ."
+					description = "Изобрести [GREEN]меховую шапку[WHITE] или [GREEN]бутылку горячей воды [WHITE] ."
 					function OnInitialize()
 					{
 						Game_SetRecipeUnlocked("FUR_HAT", true);
