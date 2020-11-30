@@ -108,7 +108,7 @@ quest <- {
 				{
 					id = "ACTIVATE_RELAY_2"
 					quest_marker_stage_object_id = "LINK_RELAY_2"
-					description = "The Fishing Relay"
+					description = "Реле Рыбалки"
 
 					function OnCommandWord(command_word)
 					{
@@ -125,7 +125,7 @@ quest <- {
 				{
 					id = "ACTIVATE_RELAY_1"
 					quest_marker_stage_object_id = "LINK_RELAY_1"
-					description = "The Farm Relay"
+					description = "Реле фермы"
 
 					function OnCommandWord(command_word)
 					{
@@ -142,7 +142,7 @@ quest <- {
 				{
 					id = "ACTIVATE_RELAY_0"
 					quest_marker_stage_object_id = "LINK_RELAY_0"
-					description = "The Park Relay"
+					description = "Реле Парк"
 
 					function OnCommandWord(command_word)
 					{
@@ -159,7 +159,7 @@ quest <- {
 				{
 					id = "ACTIVATE_RELAY_3"
 					quest_marker_stage_object_id = "LINK_RELAY_3"
-					description = "The Graveyard Relay"
+					description = "Реле на кладбище"
 
 					function OnCommandWord(command_word)
 					{
@@ -175,7 +175,7 @@ quest <- {
 				}
 				{
 					id = "OPEN_GATE"
-					description = "Open the gate."
+					description = "Откройте ворота."
 					quest_marker_stage_object_id = "evac_inner_gate_terminal"
 				}
 			]
@@ -183,12 +183,12 @@ quest <- {
 
 		{   // Phase 1
 			id = "INVESTIGATE_EVACUATION_SITE_FIND_POD"
-			description = "Investigate the evacuation site."
+			description = "Изучите место эвакуации."
 			reward_xp = 1000
 			goals = [
 				{
 					id = "EXAMINE_ESCAPE_POD"
-					description = "Find an [GREEN]Escape Pod[WHITE]."
+					description = "Найти [GREEN]спасательную капсулу[WHITE]."
 					quest_marker_stage_object_id = "ESCAPE_POD"
 				}
 			]
@@ -196,11 +196,11 @@ quest <- {
 
 		{   // Phase 2
 			id = "INVESTIGATE_LINK_TOWER"
-			description = "Investigate the evacuation site."
+			description = "Изучите место эвакуации."
 			goals = [
 				{
 					id = "SCAN_FOR_FUEL_CELLS"
-					description = "Use the [GREEN]Link Tower[WHITE] to scan for [GREEN]Fuel Cells[WHITE]."
+					description = "Используйте [GREEN]Соединительную башню[WHITE] для сканирования на наличие [GREEN]Топливных элементов[WHITE]."
 					quest_marker_stage_object_id = "TOWER_E_SHORE"
 				}
 			]
@@ -208,13 +208,13 @@ quest <- {
 
 		{   // Phase 3
 			id ="FIND_FUEL_CELLS"
-			description = "Find and collect [GREEN]Fuel Cells[WHITE] for the escape pod."
+			description = "Найти и собрать [GREEN]Топливные ячейки[WHITE] для спасательной капсулы."
 			goals = [
 				{
 					id = "FIND_FULL_CELLS"
 					material_id = "FUEL_CELL"
 					required_amount = 4
-					description = "Find [VAR.required_amount] x [MATERIAL_ICON=FUEL_CELL] Fuel Cells."
+					description = "Найти [VAR.required_amount] x [MATERIAL_ICON=FUEL_CELL] Топливные ячейки."
 					quest_marker_stage_object_id = "BOSS_LAW,BOSS_REAPER,BOSS_SWORD,BOSS_CROWN"
 
 					function IsBossKilled(id)
@@ -295,11 +295,11 @@ quest <- {
 
 		{   // Phase 3
 			id = "INSTALL_FUEL_CELLS"
-			description = "Install [GREEN]Fuel Cells[WHITE] to the escape pod."
+			description = "Установите [GREEN]Топливные ячейки[WHITE] в спасательную капсулу."
 			goals = [
 				{
 					id = "INSTALL_FUEL_CELLS"
-					description = "Install the Fuel Cells."
+					description = "Установите топливные ячейки."
 					required_amount = 4
 					quest_marker_stage_object_id = "ESCAPE_POD"
 
@@ -348,7 +348,7 @@ quest <- {
 
 		/*{   // Phase 4
 			id = "SOMETHING_SURPRISING"
-			description = "Go to the evacuation site marked on your [GREEN]map[WHITE]."
+			description = "Отправьтесь на место эвакуации, отмеченное на[GREEN]карте[WHITE]."
 			goals = [
 				{
 					id = "INSTALL_POWER_SOURCES"
@@ -365,12 +365,12 @@ quest <- {
 
 		{   // Phase 5
 			id = "ONBOARD_THE_ESCAPE_POD"
-			description = "Go to the evacuation site marked on your [GREEN]map[WHITE]."
+			description = "Отправьтесь на место эвакуации, отмеченное на[GREEN]карте[WHITE]."
 			reward_string = "???"
 			goals = [
 				{
 					id = "ONBOARD"
-					description = "Onboard the Escape Pod."
+					description = "На борт капсулы."
 					quest_marker_stage_object_id = "ESCAPE_POD"
 				}
 			]
