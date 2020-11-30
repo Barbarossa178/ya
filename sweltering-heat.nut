@@ -1,8 +1,8 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Sweltering Heat"
-	description = "Further down south the air and overall climate get damp and tropical. Protect yourself against the hostile climate."
-	description_when_completed = "The heat does not falter you any more."
+	name =        "Палящая жара"
+	description = "Дальше к югу воздух и климат становятся влажными и тропическими. Защитите себя от враждебного климата."
+	description_when_completed = "Жара тебя больше не беспокоит."
 	image =       "quests/quest-image.jpg"
 
 	requirements = {
@@ -18,7 +18,7 @@ quest <- {
 			goals = [
 				{
 					id = "TROPICAL_GEAR"
-					description = "Invent a [GREEN]Cowboy Hat[WHITE] or an [GREEN]Ice Brick[WHITE] ."
+					description = "Изобретите [GREEN]Ковбойскую шляпу[WHITE] или [GREEN]кубики льда[WHITE] ."
 					function OnInitialize()
 					{
 						Game_SetRecipeUnlocked("COWBOY_HAT", true);
