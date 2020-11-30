@@ -1,8 +1,8 @@
 quest <- {
 	category =    "TEMPORAL_CHALLENGE"
-	name =        "Only a Northern Throng"
-	description = "The rocky passage you are traversing seems suspiciously quiet. The perfect place for an ambush."
-	description_when_completed = "There is blood on the snow, luckily it is not yours."
+	name =        "Только Северный Тронг"
+	description = "Скалистый проход, через который вы проезжаете, кажется подозрительно тихим. Идеальное место для засады."
+	description_when_completed = "На снегу кровь, к счастью, не твоя."
 	image =       "quests/quest-image.jpg"
 	time_limit =  75.0
 
@@ -17,7 +17,7 @@ quest <- {
 			goals = [
 				{
 					id = "KILL"
-					description = "Kill [VAR.required_amount] the ambushers!"
+					description = "Убейте [VAR.required_amount] атакующих!"
 					actor_type_id_0 = "actors/enemies/ex-human-fast-chaser.xml"
 					actor_type_id_1 = "actors/enemies/ex-human-male-melee.xml"
 					required_amount = 5
@@ -50,7 +50,7 @@ quest <- {
 				}
 				{
 					id = "TIME"
-					description = "Finish in [VAR.temporal_challenge_time_limit] seconds."
+					description = "Закончить за [VAR.temporal_challenge_time_limit] секунд."
 					time_limited = true
 				}
 			]
