@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Hunting Challenge"
-	description = "Hunting challenge."
+	name =        "Охотничье соревнование"
+	description = "Охотничье соревнование."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -12,7 +12,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_0_0"
-					description = "Hunt [VAR.required_kills] deer with a hunting rifle."
+					description = "Охотиться [VAR.required_kills] на оленя из охотничьей винтовки."
 					required_kills = 1
 				}
 			]
@@ -24,7 +24,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_1_0"
-					description = "Hunt [VAR.required_kills] deer."
+					description = "Охотиться [VAR.required_kills] на оленя."
 					required_kills = 5
 				}
 			]
@@ -36,7 +36,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_2_0"
-					description = "Hunt [VAR.required_kills] deer with an axe."
+					description = "Охотиться [VAR.required_kills] на оленя с топором."
 					required_kills = 1
 				}
 			]
@@ -48,7 +48,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_3_0"
-					description = "Hunt [VAR.required_kills] deer."
+					description = "Охотиться [VAR.required_kills] на оленя"
 					required_kills = 10
 				}
 			]
@@ -60,7 +60,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_4_0"
-					description = "Hunt [VAR.required_kills] deer at once with an explosive."
+					description = "Охотиться [VAR.required_kills] на оленя с помощью взрывчатки."
 					required_kills = 2
 				}
 			]
@@ -72,7 +72,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_5_0"
-					description = "Hunt [VAR.required_kills] deer."
+					description = "Охотиться [VAR.required_kills] на оленя."
 					required_kills = 20
 				}
 			]
