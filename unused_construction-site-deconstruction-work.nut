@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Deconstruction work"
-	description = "The construction site is overrun by ex-humans. I better clear up the area to salvage the materials within safely."
+	name =        "Разрушительная работа"
+	description = "Строительная площадка захвачена бывшими людьми. Лучше очистить территорию, чтобы безопасно забрать материалы с собой."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -13,7 +13,7 @@ quest <- {
 				{
 					/* Set targets by adding Stage Object Refence called "target_x" (0-5 in this case) that has targets as values.*/
 					id = "KILL"
-					description = "Kill [VAR.required_amount] ex-humans"
+					description = "Убейте [VAR.required_amount] бывших людей."
 					actor_type_id = "actors/enemies/ex-human-female-melee.xml"
 					actor_type_id_2 = "actors/enemies/ex-human-male-melee.xml"
 					actor_type_id_3 = "actors/enemies/ex-human-puker.xml"
