@@ -2,7 +2,7 @@ quest <- {
 	category =    "SIDE_QUEST"
 	name =        "Основы земледелия"
 	description = "Следует обратить внимание на сельское хозяйство, так как выращивание культур может помочь вам получить больше ингредиентов для еды."
-	description_when_completed = "The first harvest is succesful and promises a perpetual source of sustenance."
+	description_when_completed = "Первый урожай удался и обещает постоянный источник пищи."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
