@@ -1,8 +1,8 @@
 quest <- {
 	category =    "TEMPORAL_CHALLENGE"
-	name =        "Wolves hunt in packs"
-	description = "Hungry howls echo in the freezing wind. The howls are getting closer."
-	description_when_completed = "The last whimper dies out and silence follows."
+	name =        "Охота на стаи волков"
+	description = "Голодный вой эхом отзывается на ледяном ветру. Вой все ближе."
+	description_when_completed = "Последний скул угасает и наступает тишина."
 	image =       "quests/quest-image.jpg"
 	time_limit =  65.0
 
@@ -17,7 +17,7 @@ quest <- {
 			goals = [
 				{
 					id = "KILL"
-					description = "Kill [VAR.required_amount] wolves"
+					description = "Убить[VAR.required_amount] волков"
 					actor_type_id_0 = "actors/enemies/ex-animal-wolf.xml"
 					required_amount = 4
 
@@ -48,7 +48,7 @@ quest <- {
 				}
 				{
 					id = "TIME"
-					description = "Finish in [VAR.temporal_challenge_time_limit] seconds."
+					description = "Закончить за [VAR.temporal_challenge_time_limit] секунд."
 					time_limited = true
 				}
 			]
