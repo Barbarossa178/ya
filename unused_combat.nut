@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Combat Challenge"
-	description = "Combat challenge."
+	name =        "Боевая задача"
+	description = "Боевая задача."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -12,7 +12,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_0_0"
-					description = "Kill [VAR.required_kills] enemies."
+					description = "Убить [VAR.required_kills] врагов."
 					required_kills = 10
 				}
 			]
@@ -24,7 +24,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_1_0"
-					description = "Kill [VAR.required_kills] enemies by backstabbing."
+					description = "Убить [VAR.required_kills] врагов, отбросив их назад."
 					required_kills = 5
 				}
 			]
@@ -36,7 +36,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_2_0"
-					description = "Kill [VAR.required_kills] enemies within [VAR.time_in_seconds] seconds."
+					description = "Убивать врагов [VAR.required_kills] в течение [VAR.time_in_seconds] секунд."
 					required_kills = 3
 					time_in_seconds = 3
 				}
