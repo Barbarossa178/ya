@@ -1,6 +1,6 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Link Tower Challenge"
+	name =        "Задача Башни Связи"
 	description = "Locate link towers and activate them."
 	image =       "quests/quest-image.jpg"
 
@@ -12,7 +12,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_0_0"
-					description = "Activate [VAR.required_amount] link towers."
+					description = "Активируйте [VAR.required_amount] башни связи."
 					required_amount = 3
 				}
 			]
@@ -24,7 +24,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_1_0"
-					description = "Activate [VAR.required_amount] link towers."
+					description = "Активируйте [VAR.required_amount] башни связи."
 					required_amount = 6
 				}
 			]
@@ -36,7 +36,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_2_0"
-					description = "Activate [VAR.required_amount] link towers."
+					description = "Активируйте [VAR.required_amount] башни связи."
 					required_amount = 10
 				}
 			]
