@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Crafting Challenge"
-	description = "Craft new items and upgrade them."
+	name =        "Ремесленный процесс"
+	description = "Создавайте новые предметы и модернизируйте их."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -12,7 +12,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_0_0"
-					description = "Upgrade the crowbar."
+					description = "Улучшите лом."
 					recipe_id = "items/tools/crowbar.nut"
 					num_required_upgrades = 1
 				}
@@ -25,7 +25,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_1_0"
-					description = "Craft an axe."
+					description = "Изготовьте топор."
 					recipe_id = "items/tools/axe.nut"
 					num_required_upgrades = 0
 				}
@@ -38,7 +38,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_2_0"
-					description = "Craft a sledgehammer."
+					description = "Изготовьте кувалду."
 					recipe_id = "items/tools/sledgehammer.nut"
 					num_required_upgrades = 0
 				}
