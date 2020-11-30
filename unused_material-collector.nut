@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Material Collector Challenge"
-	description = "There are lots of useful materials to be found. I should collect them and make use of them."
+	name =        "Вызов сборщика материалов"
+	description = "Есть много полезных материалов, которые можно найти. Я должен собрать их и использовать."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -12,19 +12,19 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_0_0"
-					description = "Collect [VAR.required_amount] x [MATERIAL_ICON=[VAR.material_id]]"
+					description = "Собрать [VAR.required_amount] x [MATERIAL_ICON=[VAR.material_id]]"
 					material_id = "PLANTS"
 					required_amount = 10
 				}
 				{
 					id = "GOAL_0_1"
-					description = "Collect [VAR.required_amount] x [MATERIAL_ICON=[VAR.material_id]]"
+					description = "Собрать [VAR.required_amount] x [MATERIAL_ICON=[VAR.material_id]]"
 					material_id = "WOOD"
 					required_amount = 5
 				}
 				{
 					id = "GOAL_0_2"
-					description = "Collect [VAR.required_amount] x [MATERIAL_ICON=[VAR.material_id]]"
+					description = "Собрать [VAR.required_amount] x [MATERIAL_ICON=[VAR.material_id]]"
 					material_id = "FABRIC"
 					required_amount = 5
 				}
@@ -37,13 +37,13 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_1_0"
-					description = "Collect [VAR.required_amount] x [VAR.material_id]."
+					description = "Собрать [VAR.required_amount] x [VAR.material_id]."
 					material_id = "WOOD"
 					required_amount = 30
 				}
 				{
 					id = "GOAL_1_1"
-					description = "Collect [VAR.required_amount] x [VAR.material_id]."
+					description = "Собрать [VAR.required_amount] x [VAR.material_id]."
 					material_id = "METAL"
 					required_amount = 30
 				}
@@ -56,13 +56,13 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_2_0"
-					description = "Collect [VAR.required_amount] x [VAR.material_id]."
+					description = "Собрать [VAR.required_amount] x [VAR.material_id]."
 					material_id = "FABRIC"
 					required_amount = 10
 				}
 				{
 					id = "GOAL_2_1"
-					description = "Collect [VAR.required_amount] x [VAR.material_id]."
+					description = "Собрать [VAR.required_amount] x [VAR.material_id]."
 					material_id = "PLASTICS"
 					required_amount = 10
 				}
@@ -75,13 +75,13 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_3_0"
-					description = "Collect [VAR.required_amount] x [VAR.material_id]."
+					description = "Собрать [VAR.required_amount] x [VAR.material_id]."
 					material_id = "CACTUS"
 					required_amount = 10
 				}
 				{
 					id = "GOAL_3_1"
-					description = "Collect [VAR.required_amount] x [VAR.material_id]."
+					description = "Собрать [VAR.required_amount] x [VAR.material_id]."
 					material_id = "BRICKS"
 					required_amount = 10
 				}
