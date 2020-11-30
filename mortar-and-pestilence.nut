@@ -1,8 +1,8 @@
 quest <- {
 	category =    "TEMPORAL_CHALLENGE"
-	name =        "Mortar and Pestilence"
-	description = "The slimy and guttural sounds intensify around you. Ex humans aren't the only danger around these parts."
-	description_when_completed = "The stench of acid slowly starts to dissipate while you start breathing little lighter. It is over."
+	name =        "Мор и Чума"
+	description = "Мерзкие звуки усиливаются вокруг тебя. Бывшие люди - не единственная опасность в этих местах."
+	description_when_completed = "Зловоние кислоты медленно начинает рассеиваться, пока вы начинаете дышать легче. Все кончено."
 	image =       "quests/quest-image.jpg"
 	time_limit =  80.0
 
@@ -17,7 +17,7 @@ quest <- {
 			goals = [
 				{
 					id = "KILL"
-					description = "Kill [VAR.required_amount] mortar pods."
+					description = "Убить [VAR.required_amount] минометные капсулы."
 					actor_type_id_0 = "actors/enemies/mortarpod.xml"
 					actor_type_id_1 = "actors/enemies/ex-human-male-melee.xml"
 					required_amount = 5
@@ -50,7 +50,7 @@ quest <- {
 				}
 				{
 					id = "TIME"
-					description = "Finish in [VAR.temporal_challenge_time_limit] seconds."
+					description = "Закончить за [VAR.temporal_challenge_time_limit] секунд."
 					time_limited = true
 				}
 			]
