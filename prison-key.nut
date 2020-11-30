@@ -1,8 +1,8 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Prison Break-In"
-	description = "The gate that leads further into the prison has been locked. [GREEN]Search for the key[WHITE] around other parts of the building."
-	description_when_completed = "The gate is open, but eerie sounds reverberate around the barren walls."
+	name =        "Взлом тюрьмы"
+	description = "Ворота, ведущие дальше в тюрьму, заперты. [GREEN]Ищите ключ[WHITE] в других частях здания."
+	description_when_completed = "Ворота открыты, но жуткие звуки реверберируют по пустым стенам."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -14,7 +14,7 @@ quest <- {
 				{
 					/* This phase needs an interactable object with id set with actor_id */
 					id = "SEARCH_THE_PRISON"
-					description = "Search the prison admin wing for key"
+					description = "Проверьте крыло тюремного администратора на наличие ключа"
 					actor_id = "PRISON_KEY_INFO"
 					required_amount = 1
 
@@ -50,7 +50,7 @@ quest <- {
 				{
 					/* This phase needs a location marker with a location_id that corresponds with quest_location*/
 					id = "GO_TO_POLICE_STATION"
-					description = "Travel to [ORANGE]Curtisfield North[WHITE]."
+					description = "Отправляйтесь в [ORANGE]Северный Кёртисфилд[WHITE]."
 					quest_location = "TOWN_8"
 
 					function OnEnterLocation(location_id, new_location)
@@ -78,7 +78,7 @@ quest <- {
 				{
 					/* This phase needs an interactable object with an id that corresponds with actor_id */
 					id = "FIND_THE_KEY"
-					description = "[GREEN]Search[WHITE] for the key inside [GREEN]police station[WHITE]."
+					description = "[GREEN]Search[WHITE] ключ внутри [GREEN]отделения полиции[WHITE]."
 					actor_id = "PRISON_KEY_LOC"
 					quest_marker_stage_object_id = "PRISON_KEY_LOC"
 
@@ -108,7 +108,7 @@ quest <- {
 				{
 					/* This phase needs one interactable, closed door with id set with actor_id to be opened with a set key*/
 					id = "GOAL_1_OPEN"
-					description = "Open the gate back at prison."
+					description = "Откройте ворота тюрьмы."
 					required_amount = 1
 					actor_id = "PRISON_GATE_1"
 
