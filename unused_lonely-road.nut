@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Lonely Road"
-	description = "Walking and running can be rewarding."
+	name =        "Одинокая дорога"
+	description = "Ходьба и бег могут быть вознаграждены."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -12,7 +12,7 @@ quest <- {
 			goals = [
 				{
 					id = "GOAL_0_WALK"
-					description = "Walk [VAR.required_amount] meters"
+					description = "Идите пешком [VAR.required_amount] метров."
 					required_amount = 200
 
 					function OnInitialize()
@@ -36,7 +36,7 @@ quest <- {
 				}
 				{
 					id = "GOAL_1_RUN"
-					description = "Run [VAR.required_amount] meters"
+					description = "Пробегите [VAR.required_amount] метров."
 					required_amount = 1000
 
 					function OnInitialize()
