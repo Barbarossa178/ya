@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Thinning the Horde"
-	description = "They're all around us. Kill some ex-humans."
+	name =        "Истощение Орды"
+	description = "Они все вокруг нас. Убейте бывших людей."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
@@ -12,7 +12,7 @@ quest <- {
 			goals = [
 				{
 					id = "KILL"
-					description = "Kill [VAR.required_amount] ex-humans"
+					description = "Убейте [VAR.required_amount] бывших людей."
 					actor_type_id = "actors/enemies/ex-human-female-melee.xml"
 					actor_type_id_2 = "actors/enemies/ex-human-male-melee.xml"
 					required_amount = 4
