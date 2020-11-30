@@ -1,6 +1,6 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Cтановится сильнее"
+	name =        "Cтать сильнее"
 	description = "Этот мир очень опасен. Чтобы выжить, вам нужно еще больше экипироваться."
 	description_when_completed = "Пока этих мер будет достаточно."
 	image =       "quests/quest-image.jpg"
