@@ -1,8 +1,8 @@
 quest <- {
 	category =    "TEMPORAL_CHALLENGE"
-	name =        "Fast Basketball"
-	description = "Clear the basketball field from enemies in 60 seconds."
-	description_when_completed = "The basketball court is quiet once more."
+	name =        "Быстрый баскетбол"
+	description = "Очистить баскетбольное поле от врагов за 60 секунд."
+	description_when_completed = "На баскетбольной площадке снова тихо."
 	image =       "quests/quest-image.jpg"
 	time_limit =  60.0
 
@@ -17,7 +17,7 @@ quest <- {
 			goals = [
 				{
 					id = "KILL"
-					description = "Kill [VAR.required_amount] ex-humans."
+					description = "Убить [VAR.required_amount] бывших людей."
 					actor_type_id_0 = "actors/enemies/ex-human-female-melee.xml"
 					actor_type_id_1 = "actors/enemies/ex-human-male-melee.xml"
 					required_amount = 5
@@ -50,7 +50,7 @@ quest <- {
 				}
 				{
 					id = "TIME"
-					description = "Finish in [VAR.temporal_challenge_time_limit] seconds."
+					description = "Закончить за [VAR.temporal_challenge_time_limit] секунд."
 					time_limited = true
 				}
 			]
