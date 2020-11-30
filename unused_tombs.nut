@@ -1,7 +1,7 @@
 quest <- {
 	category =    "CHALLENGE"
-	name =        "Ancient Tombs"
-	description = "These tombs must contain treasures of great value. I should check them out."
+	name =        "Древние гробницы"
+	description = "В этих гробницах должны быть сокровища, представляющие большую ценность. Я должен проверить их."
 	image =       "quests/quest-image.jpg"
 
 	phases = [
